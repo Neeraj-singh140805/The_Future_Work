@@ -1,110 +1,535 @@
 <div align="center">
 
-  <img src="assets/future-of-work-3d-globe.gif" width="300" alt="Future of Work Globe Animation" />
+<img src="assets/future-of-work-3d-globe.gif" width="280" alt="Future of Work 2030 3D Globe Animation"/>
 
-  # 🚀 The Future of Work 2030
-  ### *AI • Workforce Automation • Salary Dynamics • Emerging Skillsets*
+# 🚀 Future of Work 2030
 
-  <p align="center">
-    <strong>An end-to-end interactive Tableau analytics project exploring how Artificial Intelligence is reshaping industries, job viability, and tomorrow's talent landscape.</strong>
-  </p>
+### **AI • Automation • Skills • Salaries • Workforce Transformation**
 
-  <p align="center">
-    <a href="YOUR_TABLEAU_PUBLIC_LINK" target="_blank">
-      <img src="https://img.shields.io/badge/Live_Dashboard-Tableau_Public-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Live Demo" />
-    </a>
-    <a href="#-research--methodology">
-      <img src="https://img.shields.io/badge/Methodology-Documentation-7C3AED?style=for-the-badge&logo=gitbook&logoColor=white" alt="Methodology" />
-    </a>
-    <a href="data/future_of_work.csv">
-      <img src="https://img.shields.io/badge/Dataset-500_Records-00B8D9?style=for-the-badge&logo=databricks&logoColor=white" alt="Dataset" />
-    </a>
-  </p>
-
-  <!-- Metric Badges -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/Analyzed_Jobs-500-blue?style=flat-square" />
-    <img src="https://img.shields.io/badge/Sectors-10_Industries-indigo?style=flat-square" />
-    <img src="https://img.shields.io/badge/Remote_Friendly-50.2%25-success?style=flat-square" />
-    <img src="https://img.shields.io/badge/Avg_Salary-$91,222-emerald?style=flat-square" />
-    <img src="https://img.shields.io/badge/High_Automation_Risk-34%25-critical?style=flat-square" />
-  </p>
-
-</div>
-
----
-
-## 📑 Table of Contents
-
-- [Executive Summary](#-executive-summary)
-- [Interactive Dashboard Architecture](#-interactive-dashboard-architecture)
-- [Deep Dive Dashboards](#-deep-dive-dashboards)
-  - [1. AI & Modern Workforce Landscape](#1-ai--modern-workforce-landscape)
-  - [2. Job Automation Risk vs. Industry Growth](#2-job-automation-risk-vs-industry-growth)
-  - [3. Compensation & Skillset Economics](#3-compensation--skillset-economics)
-  - [4. Strategic Recommendations](#4-strategic-recommendations)
-- [Data Pipeline & Methodology](#-data-pipeline--methodology)
-- [Key Insights at a Glance](#-key-insights-at-a-glance)
-- [Project Architecture & File Tree](#-project-architecture--file-tree)
-- [Setup & Exploration](#-setup--exploration)
-- [Author & Acknowledgements](#-author--connect)
-
----
-
-## 🎯 Executive Summary
-
-The transition toward 2030 is defined not by wholesale human replacement, but by **accelerated task automation, talent polarization, and hybrid human-AI workflows**. 
-
-This analytics study demystifies workforce transitions across **500 core roles** and **10 industries**, answering critical questions around:
-- *Which sectors face immediate disruption versus those positioned for growth?*
-- *What premium skill combinations insulate workers from automation?*
-- *How does remote-work viability intersect with high AI integration?*
+<p>
+  <em>
+    An interactive Tableau analytics project exploring how AI adoption,
+    automation risk, emerging skills, salaries, and remote work are
+    shaping the workforce of 2030.
+  </em>
+</p>
 
 <br>
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="25%">
-        <h3>💼 500</h3>
-        <sub>Benchmarked Job Profiles</sub>
-      </td>
-      <td align="center" width="25%">
-        <h3>🤖 29.4%</h3>
-        <sub>High AI Adoption Share</sub>
-      </td>
-      <td align="center" width="25%">
-        <h3>⚠️ 48.7%</h3>
-        <sub>Max Disruption (Transportation)</sub>
-      </td>
-      <td align="center" width="25%">
-        <h3>💰 $96,937</h3>
-        <sub>Peak Role (Ops Manager)</sub>
-      </td>
-    </tr>
-  </table>
+<a href="YOUR_TABLEAU_PUBLIC_LINK">
+  <img src="https://img.shields.io/badge/🚀%20LIVE%20DASHBOARD-Tableau%20Public-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
+</a>
+&nbsp;
+<a href="#-key-insights">
+  <img src="https://img.shields.io/badge/📊%20KEY%20INSIGHTS-Explore-7C3AED?style=for-the-badge"/>
+</a>
+&nbsp;
+<a href="#-data--methodology">
+  <img src="https://img.shields.io/badge/🔬%20METHODOLOGY-View-00B8D9?style=for-the-badge"/>
+</a>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/500+-Job%20Profiles-2563EB?style=flat-square"/>
+<img src="https://img.shields.io/badge/10-Industries-4F46E5?style=flat-square"/>
+<img src="https://img.shields.io/badge/29.4%25-AI%20Adoption-9333EA?style=flat-square"/>
+<img src="https://img.shields.io/badge/34%25-High%20Automation%20Risk-DC2626?style=flat-square"/>
+<img src="https://img.shields.io/badge/$91K+-Average%20Salary-059669?style=flat-square"/>
+<img src="https://img.shields.io/badge/50.2%25-Remote%20Friendly-0891B2?style=flat-square"/>
+
 </div>
 
 ---
 
-## 📊 Interactive Dashboard Architecture
+## 🌍 Why This Project?
 
-The reporting suite comprises **four modular analytical views** linked via interactive filters and dynamic KPI parameters:
+The workplace is changing rapidly.
+
+AI is not simply creating a future where humans disappear. Instead, it is changing **which tasks are automated, which skills become valuable, and how humans collaborate with intelligent systems.**
+
+**Future of Work 2030** uses data visualization and exploratory analytics to investigate this transformation across hundreds of job profiles and multiple industries.
+
+### The project answers four major questions:
+
+> 🤖 **Where is AI adoption accelerating?**
+
+> ⚠️ **Which jobs and industries face greater automation exposure?**
+
+> 💰 **Which roles and skillsets command higher salaries?**
+
+> 🧠 **What skills could become increasingly valuable in an AI-driven economy?**
+
+---
+
+# 📊 Dashboard Overview
+
+The Tableau project is organized into **four interconnected analytical dashboards**.
+
+<div align="center">
+
+|               Dashboard              | Focus                                                 |
+| :----------------------------------: | :---------------------------------------------------- |
+|  🤖 **01 — AI Workforce Landscape**  | AI adoption, workforce distribution & industry trends |
+|  ⚠️ **02 — Automation Risk Matrix**  | Automation exposure vs. industry growth               |
+| 💰 **03 — Salary & Skill Economics** | Compensation, skills & career value                   |
+|    🎯 **04 — Strategic Insights**    | Data-driven workforce recommendations                 |
+
+</div>
+
+---
+
+# 🧠 Dashboard Architecture
 
 ```text
-                           ┌──────────────────────────────┐
-                           │   FUTURE OF WORK 2030 SUITE  │
-                           └──────────────┬───────────────┘
-                                          │
-         ┌────────────────────────┬───────┴────────────────────────┬────────────────────────┐
-         ▼                        ▼                                ▼                        ▼
-┌──────────────────┐    ┌──────────────────┐             ┌──────────────────┐     ┌──────────────────┐
-│   01. AI MACRO   │    │ 02. RISK MATRIX  │             │  03. SALARY/SKILL│     │  04. STRATEGIC   │
-│     OVERVIEW     │    │    & GROWTH      │             │     DYNAMICS     │     │ RECOMMENDATIONS  │
-└────────┬─────────┘    └────────┬─────────┘             └────────┬─────────┘     └────────┬─────────┘
-         │                       │                                │                        │
-         └───────────────────────┴────────────────┬───────────────┴────────────────────────┘
-                                                  ▼
-                                       ┌─────────────────────┐
-                                       │ ACTIONABLE INSIGHTS │
-                                       └─────────────────────┘
+                         ┌───────────────────────────────┐
+                         │       FUTURE OF WORK 2030     │
+                         │       TABLEAU ANALYTICS       │
+                         └───────────────┬───────────────┘
+                                         │
+          ┌──────────────────────────────┼──────────────────────────────┐
+          │                              │                              │
+          ▼                              ▼                              ▼
+ ┌─────────────────┐             ┌─────────────────┐             ┌─────────────────┐
+ │ 01. AI &        │             │ 02. AUTOMATION  │             │ 03. SALARY &    │
+ │ WORKFORCE       │────────────▶│ RISK & GROWTH   │────────────▶│ SKILL ECONOMICS │
+ │ LANDSCAPE       │             │ MATRIX          │             │                 │
+ └────────┬────────┘             └────────┬────────┘             └────────┬────────┘
+          │                               │                               │
+          └───────────────────────────────┼───────────────────────────────┘
+                                          ▼
+                               ┌─────────────────────┐
+                               │ 04. STRATEGIC       │
+                               │ INSIGHTS & ACTIONS  │
+                               └──────────┬──────────┘
+                                          ▼
+                               ┌─────────────────────┐
+                               │ ACTIONABLE WORKFORCE│
+                               │      INSIGHTS       │
+                               └─────────────────────┘
+```
+
+---
+
+# 🔎 Dashboard Deep Dive
+
+## 01 — 🤖 AI & Modern Workforce Landscape
+
+The first dashboard establishes the **macro view of the workforce**.
+
+### Key Metrics
+
+* Total job profiles analyzed
+* AI adoption rate
+* Workforce distribution
+* Industry representation
+* Remote-work availability
+* Salary distribution
+
+### Questions Explored
+
+* Which industries are adopting AI most rapidly?
+* How widespread is remote work?
+* Which sectors have the largest workforce representation?
+* How does AI adoption vary across industries?
+
+---
+
+## 02 — ⚠️ Job Automation Risk vs. Industry Growth
+
+This dashboard examines the relationship between **automation exposure and industry growth**.
+
+### Core Analysis
+
+```text
+                    INDUSTRY GROWTH
+                          ▲
+                          │
+       GROWING            │            HIGH-GROWTH
+       + LOW RISK         │            + HIGH RISK
+                          │
+ ─────────────────────────┼────────────────────────▶
+                          │              AUTOMATION
+       LOW-GROWTH         │            HIGH-RISK
+       + LOW RISK         │
+                          │
+                          ▼
+```
+
+### Key Indicators
+
+* Automation risk
+* Industry growth
+* AI adoption
+* Job displacement
+* Job creation
+* Workforce exposure
+
+This helps identify industries where **growth and disruption may occur simultaneously**.
+
+---
+
+## 03 — 💰 Compensation & Skillset Economics
+
+Not all skills are valued equally.
+
+This dashboard investigates how **skills, AI adoption, and job characteristics interact with compensation.**
+
+### Analyzed Factors
+
+| Factor         | Question                                      |
+| -------------- | --------------------------------------------- |
+| 💰 Salary      | Which roles command higher compensation?      |
+| 🧠 Skills      | Which skills appear across high-paying roles? |
+| 🤖 AI Adoption | Does AI exposure correlate with compensation? |
+| 🌎 Remote Work | Which high-value roles support remote work?   |
+| 📈 Experience  | How does experience relate to earnings?       |
+
+---
+
+## 04 — 🎯 Strategic Workforce Insights
+
+The final dashboard converts analysis into **practical insights for students, professionals, recruiters, and organizations.**
+
+### Strategic Themes
+
+**For Students & Professionals**
+
+* Build AI literacy
+* Develop technical + human skills
+* Focus on emerging skill combinations
+* Understand industry-specific automation exposure
+
+**For Organizations**
+
+* Identify roles exposed to automation
+* Invest in workforce upskilling
+* Combine human expertise with AI capabilities
+* Prepare talent strategies for emerging roles
+
+---
+
+# 📌 Key Insights
+
+<div align="center">
+
+### 📊 At a Glance
+
+| Metric                          |       Value |
+| ------------------------------- | ----------: |
+| 💼 Job Profiles                 |    **500+** |
+| 🏭 Industries                   |      **10** |
+| 🤖 High AI Adoption             |   **29.4%** |
+| ⚠️ High Automation Risk         |     **34%** |
+| 🌎 Remote-Friendly Roles        |   **50.2%** |
+| 💰 Average Salary               | **$91,222** |
+| 📈 Highest Observed Role Salary | **$96,937** |
+
+</div>
+
+---
+
+# 💡 Major Findings
+
+### 01 — AI adoption is becoming a workforce-level phenomenon
+
+AI adoption is no longer limited to purely technical roles. Multiple industries show varying levels of AI integration, creating new requirements for digital and analytical capabilities.
+
+### 02 — Automation risk differs significantly by industry
+
+Some sectors demonstrate considerably greater exposure to automation than others, highlighting the importance of **industry-specific workforce planning**.
+
+### 03 — Skills matter alongside job titles
+
+Compensation patterns suggest that understanding **which skills accompany higher-value roles** can be as important as looking at job titles alone.
+
+### 04 — Remote work expands the talent landscape
+
+A significant portion of the analyzed roles show remote-work compatibility, potentially expanding access to global talent markets.
+
+---
+
+# 🔬 Data & Methodology
+
+## Dataset
+
+The analysis is based on a dataset containing **500+ job profiles across 10 industries**.
+
+### Core Variables
+
+```text
+Job Role
+    │
+    ├── Industry
+    ├── Salary
+    ├── AI Adoption
+    ├── Automation Risk
+    ├── Remote Work
+    ├── Skills
+    ├── Job Growth
+    ├── Job Creation
+    └── Job Displacement
+```
+
+### Analytical Workflow
+
+```text
+Raw Dataset
+     │
+     ▼
+Data Cleaning
+     │
+     ▼
+Exploratory Analysis
+     │
+     ▼
+Feature & KPI Creation
+     │
+     ▼
+Tableau Visualizations
+     │
+     ▼
+Interactive Dashboards
+     │
+     ▼
+Strategic Insights
+```
+
+---
+
+# 🛠️ Tools & Technologies
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+
+</div>
+
+### Technology Stack
+
+| Technology     | Purpose                                  |
+| -------------- | ---------------------------------------- |
+| 📊 **Tableau** | Dashboard design & interactive analytics |
+| 🐍 **Python**  | Data preprocessing & exploration         |
+| 🐼 **Pandas**  | Data cleaning & transformation           |
+| 🔢 **NumPy**   | Numerical analysis                       |
+| 📁 **CSV**     | Dataset storage                          |
+| 🐙 **GitHub**  | Version control & project documentation  |
+
+---
+
+# 📁 Project Structure
+
+```text
+Future-of-Work-2030/
+│
+├── 📂 assets/
+│   ├── future-of-work-3d-globe.gif
+│   ├── dashboard-overview.png
+│   ├── ai-workforce.png
+│   ├── automation-risk.png
+│   ├── salary-skills.png
+│   └── strategic-insights.png
+│
+├── 📂 data/
+│   └── future_of_work.csv
+│
+├── 📂 tableau/
+│   └── Future_of_Work_2030.twbx
+│
+├── 📄 README.md
+└── 📄 LICENSE
+```
+
+---
+
+# 🖥️ Dashboard Preview
+
+<div align="center">
+
+### 🤖 AI & Workforce Landscape
+
+<img src="assets/ai-workforce.png" width="90%" alt="AI Workforce Dashboard"/>
+
+<br><br>
+
+### ⚠️ Automation Risk Matrix
+
+<img src="assets/automation-risk.png" width="90%" alt="Automation Risk Dashboard"/>
+
+<br><br>
+
+### 💰 Salary & Skill Economics
+
+<img src="assets/salary-skills.png" width="90%" alt="Salary and Skills Dashboard"/>
+
+<br><br>
+
+### 🎯 Strategic Insights
+
+<img src="assets/strategic-insights.png" width="90%" alt="Strategic Insights Dashboard"/>
+
+</div>
+
+---
+
+# 🚀 Explore the Dashboard
+
+<div align="center">
+
+<a href="YOUR_TABLEAU_PUBLIC_LINK">
+
+<img src="https://img.shields.io/badge/🚀%20OPEN%20INTERACTIVE%20DASHBOARD-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
+
+</a>
+
+<br>
+
+**Filter • Explore • Compare • Discover**
+
+</div>
+
+---
+
+# ⚙️ Setup & Exploration
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Future-of-Work-2030.git
+```
+
+### 2️⃣ Navigate to the project
+
+```bash
+cd Future-of-Work-2030
+```
+
+### 3️⃣ Explore the dataset
+
+Open:
+
+```text
+data/future_of_work.csv
+```
+
+### 4️⃣ Open the Tableau workbook
+
+Open:
+
+```text
+tableau/Future_of_Work_2030.twbx
+```
+
+in Tableau Desktop.
+
+### 5️⃣ Explore the dashboard
+
+Use the filters, parameters, charts, and interactive views to investigate workforce trends.
+
+---
+
+# 🎓 What I Learned
+
+This project helped strengthen my understanding of:
+
+* 📊 Data storytelling
+* 📈 Business intelligence
+* 🎨 Dashboard UX/UI
+* 🔍 Exploratory data analysis
+* 🧮 KPI development
+* 🤖 AI & workforce analytics
+* 🧠 Strategic interpretation of data
+* 📐 Tableau calculated fields
+* 🎯 Turning raw data into actionable insights
+
+---
+
+# 🔮 Future Improvements
+
+This project can be extended by incorporating:
+
+* [ ] 📅 Historical workforce trend analysis
+* [ ] 🤖 AI-powered job-risk prediction
+* [ ] 🧠 Skill-demand forecasting
+* [ ] 💼 Real-time job-market data
+* [ ] 🌍 Country-level workforce comparison
+* [ ] 📈 Machine-learning-based salary prediction
+* [ ] 🔄 Automated dataset updates
+* [ ] 🗺️ Global workforce opportunity map
+
+---
+
+# 🌟 Project Highlights
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center">📊<br><b>500+</b><br><sub>Job Profiles</sub></td>
+<td align="center">🏭<br><b>10</b><br><sub>Industries</sub></td>
+<td align="center">🤖<br><b>AI</b><br><sub>Adoption Analysis</sub></td>
+<td align="center">⚠️<br><b>Risk</b><br><sub>Automation Analysis</sub></td>
+<td align="center">💰<br><b>Salary</b><br><sub>Compensation Analysis</sub></td>
+</tr>
+</table>
+
+</div>
+
+---
+
+# 👨‍💻 Author
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Neeraj%20Singh-B.Tech%20AI%20Student-2563EB?style=for-the-badge"/>
+
+<br><br>
+
+**Data Analytics • AI • Full-Stack Development • Data Visualization**
+
+<br>
+
+<a href="https://github.com/YOUR_USERNAME">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="YOUR_TABLEAU_PUBLIC_LINK">
+<img src="https://img.shields.io/badge/Tableau%20Public-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+# ⭐ Support
+
+If you found this project interesting:
+
+**⭐ Star the repository**
+**🍴 Fork the project**
+**💬 Share your feedback**
+**🔗 Explore the Tableau dashboard**
+
+Every star and piece of feedback helps improve future analytics projects.
+
+---
+
+<div align="center">
+
+### 🚀 **The future of work isn't just about automation.**
+
+### **It's about how humans and AI work together.**
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=120&section=footer"/>
+
+</div>
