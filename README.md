@@ -16,8 +16,8 @@
 
 <br>
 
-<a href="YOUR_TABLEAU_PUBLIC_LINK">
-  <img src="https://img.shields.io/badge/🚀%20LIVE%20DASHBOARD-Tableau%20Public-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
+<a href="https://public.tableau.com/app/profile/neeraj.singh1868/vizzes">
+  <img src="https://img.shields.io/badge/🚀%20LIVE%20DASHBOARD-Tableau%20Public-E97627?style=for-the-badge&logo=tableau&logoColor=white"/> </a> &nbsp; <a href="#-key-insights"/>
 </a>
 &nbsp;
 <a href="#-key-insights">
@@ -80,9 +80,9 @@ The Tableau project is organized into **four interconnected analytical dashboard
           │                              │                              │
           ▼                              ▼                              ▼
  ┌─────────────────┐             ┌─────────────────┐             ┌─────────────────┐
- │ 01. AI &        │             │ 02. AUTOMATION  │             │ 03. SALARY &    │
- │ WORKFORCE       │────────────▶│ RISK & GROWTH   │────────────▶│ SKILL ECONOMICS │
- │ LANDSCAPE       │             │ MATRIX          │             │                 │
+ │ 01. AI &        │             │ 02. Job  │                     │ 03. SALARY &    │
+ │ Future Work       │────────────▶│ RISK & GROWTH   │────────────▶│ Insights│
+ │ Overview       │             │ Analysis          │             │                 │
  └────────┬────────┘             └────────┬────────┘             └────────┬────────┘
           │                               │                               │
           └───────────────────────────────┼───────────────────────────────┘
@@ -91,11 +91,6 @@ The Tableau project is organized into **four interconnected analytical dashboard
                                │ 04. STRATEGIC       │
                                │ INSIGHTS & ACTIONS  │
                                └──────────┬──────────┘
-                                          ▼
-                               ┌─────────────────────┐
-                               │ ACTIONABLE WORKFORCE│
-                               │      INSIGHTS       │
-                               └─────────────────────┘
 ```
 
 ---
@@ -367,7 +362,7 @@ Future-of-Work-2030/
 
 <div align="center">
 
-<a href="YOUR_TABLEAU_PUBLIC_LINK">
+<a href="https://public.tableau.com/app/profile/neeraj.singh1868/viz/TheFutureofWork2030AIJobsSalariesSkills/Dashboard">
 
 <img src="https://img.shields.io/badge/🚀%20OPEN%20INTERACTIVE%20DASHBOARD-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
 
