@@ -23,19 +23,8 @@
 <a href="#-key-insights">
   <img src="https://img.shields.io/badge/📊%20KEY%20INSIGHTS-Explore-7C3AED?style=for-the-badge"/>
 </a>
-&nbsp;
-<a href="#-data--methodology">
-  <img src="https://img.shields.io/badge/🔬%20METHODOLOGY-View-00B8D9?style=for-the-badge"/>
-</a>
 
 <br><br>
-
-<img src="https://img.shields.io/badge/500+-Job%20Profiles-2563EB?style=flat-square"/>
-<img src="https://img.shields.io/badge/10-Industries-4F46E5?style=flat-square"/>
-<img src="https://img.shields.io/badge/29.4%25-AI%20Adoption-9333EA?style=flat-square"/>
-<img src="https://img.shields.io/badge/34%25-High%20Automation%20Risk-DC2626?style=flat-square"/>
-<img src="https://img.shields.io/badge/$91K+-Average%20Salary-059669?style=flat-square"/>
-<img src="https://img.shields.io/badge/50.2%25-Remote%20Friendly-0891B2?style=flat-square"/>
 
 </div>
 
@@ -69,10 +58,11 @@ The Tableau project is organized into **four interconnected analytical dashboard
 
 |               Dashboard              | Focus                                                 |
 | :----------------------------------: | :---------------------------------------------------- |
-|  🤖 **01 — AI Workforce Landscape**  | AI adoption, workforce distribution & industry trends |
-|  ⚠️ **02 — Automation Risk Matrix**  | Automation exposure vs. industry growth               |
-| 💰 **03 — Salary & Skill Economics** | Compensation, skills & career value                   |
-|    🎯 **04 — Strategic Insights**    | Data-driven workforce recommendations                 |
+|  🤖 **01 — Research Methodology**  | Data Summary and Research Questions |
+|  ⚠️ **02 —  AI Future Work Overiew**  | AI adoption, workforce distribution & industry trends               |
+| 💰 **03 — Job Risk Growth Analysis** | Automation exposure vs. industry growth                   |
+|    🎯 **04 — Salary Insights**    | Compensation, skills & career value                |
+|     **05 - Key Insights**    | Data-driven workforce recommendations               |
 
 </div>
 
@@ -302,10 +292,6 @@ Strategic Insights
 
 <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-
 </div>
 
 ### Technology Stack
@@ -314,10 +300,6 @@ Strategic Insights
 | -------------- | ---------------------------------------- |
 | 📊 **Tableau** | Dashboard design & interactive analytics |
 | 🐍 **Python**  | Data preprocessing & exploration         |
-| 🐼 **Pandas**  | Data cleaning & transformation           |
-| 🔢 **NumPy**   | Numerical analysis                       |
-| 📁 **CSV**     | Dataset storage                          |
-| 🐙 **GitHub**  | Version control & project documentation  |
 
 ---
 
@@ -326,22 +308,15 @@ Strategic Insights
 ```text
 Future-of-Work-2030/
 │
-├── 📂 assets/
-│   ├── future-of-work-3d-globe.gif
-│   ├── dashboard-overview.png
-│   ├── ai-workforce.png
-│   ├── automation-risk.png
-│   ├── salary-skills.png
-│   └── strategic-insights.png
-│
-├── 📂 data/
-│   └── future_of_work.csv
-│
-├── 📂 tableau/
-│   └── Future_of_Work_2030.twbx
+├── 📂 Dashboards/
+│   ├── project-cover.png
+│   ├── ai-future-work-overview.png
+│   ├── job-risk-growth-analysis.png
+│   ├── salary-skills-insights.png
+│   ├── key-insights-recommendations.png
+│   └── research-methodology.png
 │
 ├── 📄 README.md
-└── 📄 LICENSE
 ```
 
 ---
@@ -350,27 +325,39 @@ Future-of-Work-2030/
 
 <div align="center">
 
-### 🤖 AI & Workforce Landscape
+### 🚀 The Future Work 2030
 
-<img src="assets/ai-workforce.png" width="90%" alt="AI Workforce Dashboard"/>
-
-<br><br>
-
-### ⚠️ Automation Risk Matrix
-
-<img src="assets/automation-risk.png" width="90%" alt="Automation Risk Dashboard"/>
+<img src="Dashboards/project-cover.png" width="90%" alt="AI Workforce Dashboard"/>
 
 <br><br>
 
-### 💰 Salary & Skill Economics
+###  Research Methodology
 
-<img src="assets/salary-skills.png" width="90%" alt="Salary and Skills Dashboard"/>
+<img src="Dashboards/research-methodology.png" width="90%" alt="AI Workforce Dashboard"/>
 
 <br><br>
 
-### 🎯 Strategic Insights
+### 🤖 AI Future Work Overiew
 
-<img src="assets/strategic-insights.png" width="90%" alt="Strategic Insights Dashboard"/>
+<img src="Dashboards/ai-future-work-overview.png" width="90%" alt="AI Workforce Dashboard"/>
+
+<br><br>
+
+### ⚠️ Job Risk Growth Analysis
+
+<img src="Dashboards/job-risk-growth-analysis.png" width="90%" alt="Automation Risk Dashboard"/>
+
+<br><br>
+
+### 💰 Salary Insights
+
+<img src="Dashboards/salary-skills-insights.png" width="90%" alt="Salary and Skills Dashboard"/>
+
+<br><br>
+
+### 🎯 Key Insights
+
+<img src="Dashboards/key-insights-recommendations.png" width="90%" alt="Strategic Insights Dashboard"/>
 
 </div>
 
@@ -391,44 +378,6 @@ Future-of-Work-2030/
 **Filter • Explore • Compare • Discover**
 
 </div>
-
----
-
-# ⚙️ Setup & Exploration
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/Future-of-Work-2030.git
-```
-
-### 2️⃣ Navigate to the project
-
-```bash
-cd Future-of-Work-2030
-```
-
-### 3️⃣ Explore the dataset
-
-Open:
-
-```text
-data/future_of_work.csv
-```
-
-### 4️⃣ Open the Tableau workbook
-
-Open:
-
-```text
-tableau/Future_of_Work_2030.twbx
-```
-
-in Tableau Desktop.
-
-### 5️⃣ Explore the dashboard
-
-Use the filters, parameters, charts, and interactive views to investigate workforce trends.
 
 ---
 
@@ -476,34 +425,6 @@ This project can be extended by incorporating:
 <td align="center">💰<br><b>Salary</b><br><sub>Compensation Analysis</sub></td>
 </tr>
 </table>
-
-</div>
-
----
-
-# 👨‍💻 Author
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Neeraj%20Singh-B.Tech%20AI%20Student-2563EB?style=for-the-badge"/>
-
-<br><br>
-
-**Data Analytics • AI • Full-Stack Development • Data Visualization**
-
-<br>
-
-<a href="https://github.com/YOUR_USERNAME">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="YOUR_TABLEAU_PUBLIC_LINK">
-<img src="https://img.shields.io/badge/Tableau%20Public-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
-</a>
 
 </div>
 
